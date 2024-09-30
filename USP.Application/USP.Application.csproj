@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Exceptions\" />
+      <Folder Include="Extenstions\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MediatR" Version="12.4.1" />
+      <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.0-rc.1.24431.7" />
+      <PackageReference Include="Riok.Mapperly" Version="4.0.0-next.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <ProjectReference Include="..\USP.Domain\USP.Domain.csproj" />
+    </ItemGroup>
+
+</Project>
