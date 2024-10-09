@@ -12,7 +12,7 @@ public class GetOneProductQueryHandler : IRequestHandler<GetOneProductQuery, Pro
     public async Task<ProductDetailsDto?> Handle(GetOneProductQuery request, CancellationToken cancellationToken)
     {
         var entity = await DB.Find<Domain.Entities.Product>().OneAsync(request.Id, cancellation: cancellationToken);
-        return entity?.ToDto();
-        
+        var dto = await entity?.ToDtoAsync();
+        return dto;
     }
 }
