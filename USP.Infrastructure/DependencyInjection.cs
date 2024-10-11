@@ -2,6 +2,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using MongoDB.Driver;
 using MongoDB.Entities;
+using USP.Application.Common.Interfaces;
+using USP.Infrastructure.Services;
 
 namespace USP.Infrastructure;
 
@@ -13,6 +15,9 @@ public static class DependencyInjection
         //var mongoDbConfiguration = new MongoDbConfiguration();
         var conn = configuration.GetSection("MongoDbConfiguration");
 
+        var db = conn.GetSection("DbName").Value!;
+        var conString = conn.GetSection("DbString").Value;
+        
         Task.Run(async () =>
             {
                 await DB.InitAsync(conn.GetSection("DbName").Value!, 
@@ -21,6 +26,8 @@ public static class DependencyInjection
             .GetAwaiter()
             .GetResult();
         
+        services.AddSingleton<IProductService, ProductService>();
+
         return services;
     }
 

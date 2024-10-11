@@ -777,6 +777,20 @@
         "runtime": {
           "bin/placeholder/USP.Infrastructure.dll": {}
         }
+      },
+      "USP.Worker/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Extensions.Configuration": "9.0.0-rc.1.24431.7",
+          "USP.Application": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/USP.Worker.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/USP.Worker.dll": {}
+        }
       }
     }
   },
@@ -2128,6 +2142,11 @@
       "type": "project",
       "path": "../USP.Infrastructure/USP.Infrastructure.csproj",
       "msbuildProject": "../USP.Infrastructure/USP.Infrastructure.csproj"
+    },
+    "USP.Worker/1.0.0": {
+      "type": "project",
+      "path": "../USP.Worker/USP.Worker.csproj",
+      "msbuildProject": "../USP.Worker/USP.Worker.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -2136,7 +2155,8 @@
       "Microsoft.Extensions.Configuration >= 9.0.0-rc.1.24431.7",
       "Swashbuckle.AspNetCore >= 6.4.0",
       "USP.Application >= 1.0.0",
-      "USP.Infrastructure >= 1.0.0"
+      "USP.Infrastructure >= 1.0.0",
+      "USP.Worker >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2171,6 +2191,9 @@
             },
             "C:\\Users\\Hp\\Desktop\\GitHub Projects\\USP-2021200517\\USP.Infrastructure\\USP.Infrastructure.csproj": {
               "projectPath": "C:\\Users\\Hp\\Desktop\\GitHub Projects\\USP-2021200517\\USP.Infrastructure\\USP.Infrastructure.csproj"
+            },
+            "C:\\Users\\Hp\\Desktop\\GitHub Projects\\USP-2021200517\\USP.Worker\\USP.Worker.csproj": {
+              "projectPath": "C:\\Users\\Hp\\Desktop\\GitHub Projects\\USP-2021200517\\USP.Worker\\USP.Worker.csproj"
             }
           }
         }

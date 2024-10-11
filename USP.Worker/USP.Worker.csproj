@@ -10,4 +10,8 @@
       <PackageReference Include="Microsoft.Extensions.Configuration" Version="9.0.0-rc.1.24431.7" />
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\USP.Application\USP.Application.csproj" />
+    </ItemGroup>
+
 </Project>

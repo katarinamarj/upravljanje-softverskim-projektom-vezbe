@@ -4,6 +4,7 @@ using USP.Application;
 using USP.Infrastructure;
 using Microsoft.Extensions.Configuration;
 using USP.API.Filters;
+using USP.Worker;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -17,6 +18,10 @@ builder.Services.AddInfrastructure(builder.Configuration);
 
 builder.Services.AddSingleton<IUserService, UserService>();
 builder.Services.AddSingleton<IProductService, ProductService>();
+
+builder.Services.AddHostedService<NotifyUserWorker>();
+builder.Services.AddHostedService<UpdateProductEmbeddedWorker>();
+
 
 var app = builder.Build();
 
