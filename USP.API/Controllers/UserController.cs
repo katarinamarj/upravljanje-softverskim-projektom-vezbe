@@ -13,4 +13,6 @@ public class UserController(IUserService userService, IProductService productSer
         await Mediator.Send(command);
         return Ok();
     }
+    
+    
 }
