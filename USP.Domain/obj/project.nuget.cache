@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "AtBJ3I+3rEg=",
+  "dgSpecHash": "9KrIF+OnINw=",
   "success": true,
   "projectFilePath": "C:\\Users\\Hp\\Desktop\\GitHub Projects\\USP-2021200517\\USP.Domain\\USP.Domain.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Hp\\.nuget\\packages\\ardalis.smartenum\\8.1.0\\ardalis.smartenum.8.1.0.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\awssdk.core\\3.7.100.14\\awssdk.core.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\awssdk.securitytoken\\3.7.100.14\\awssdk.securitytoken.3.7.100.14.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\dnsclient\\1.6.1\\dnsclient.1.6.1.nupkg.sha512",

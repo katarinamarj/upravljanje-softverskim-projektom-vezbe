@@ -1,5 +1,8 @@
+using MongoDB.Entities;
 using Riok.Mapperly.Abstractions;
 using USP.Application.Common.Dto;
+using USP.Domain.Entities;
+using USP.Domain.Enums;
 
 namespace USP.Application.Common.Mappers;
 
@@ -14,6 +17,19 @@ public static partial class ProductMapper
         return new ProductCustomDetailsDto(entity.Name + " - " + entity.Price);
     }
 
-    public static partial Domain.Entities.Product ToEntitiyFromCreateDto(this ProductCreateDto dto);
+    public static Domain.Entities.Product ToEntitiyFromCreateDto(this ProductCreateDto dto, User user, One<User> referencedOneToOneUser)
+    {
+        var entity = new Domain.Entities.Product
+        {
+            Name = dto.Name,
+            Description = dto.Description,
+            Price = dto.Price,
+            Category = Category.FromValue(dto.Category),
+            User = user,
+            ReferencedOneToOneUser = referencedOneToOneUser
+        };
+        
+        return entity;
+    }
     
 }
