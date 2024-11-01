@@ -197,3 +197,5 @@ C:\Users\Hp\Desktop\GitHub Projects\USP-2021200517\USP.API\bin\Debug\net8.0\Net3
 C:\Users\Hp\Desktop\GitHub Projects\USP-2021200517\USP.API\bin\Debug\net8.0\Net4x.AsyncBridge.dll
 C:\Users\Hp\Desktop\GitHub Projects\USP-2021200517\USP.API\bin\Debug\net8.0\Net4x.BaseTypes.dll
 C:\Users\Hp\Desktop\GitHub Projects\USP-2021200517\USP.API\bin\Debug\net8.0\Net4x.ValueTuple.dll
+C:\Users\Hp\Desktop\GitHub Projects\USP-2021200517\USP.API\bin\Debug\net8.0\USP.Worker.dll
+C:\Users\Hp\Desktop\GitHub Projects\USP-2021200517\USP.API\bin\Debug\net8.0\USP.Worker.pdb
