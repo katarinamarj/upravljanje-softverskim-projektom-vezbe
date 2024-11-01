@@ -736,6 +736,7 @@
           "FluentValidation.AspNetCore": "11.3.0",
           "MediatR": "12.4.1",
           "Microsoft.Extensions.Configuration": "9.0.0-rc.1.24431.7",
+          "Microsoft.OpenApi": "1.4.3",
           "Net4x.FluentValidation9.DependencyInjectionExtensions": "9.2.2",
           "Riok.Mapperly": "4.0.0-next.4",
           "USP.Domain": "1.0.0"

@@ -186,3 +186,14 @@ C:\Users\Hp\Desktop\GitHub Projects\USP-2021200517\USP.API\obj\Debug\net8.0\refi
 C:\Users\Hp\Desktop\GitHub Projects\USP-2021200517\USP.API\obj\Debug\net8.0\USP.API.pdb
 C:\Users\Hp\Desktop\GitHub Projects\USP-2021200517\USP.API\obj\Debug\net8.0\USP.API.genruntimeconfig.cache
 C:\Users\Hp\Desktop\GitHub Projects\USP-2021200517\USP.API\obj\Debug\net8.0\ref\USP.API.dll
+C:\Users\Hp\Desktop\GitHub Projects\USP-2021200517\USP.API\bin\Debug\net8.0\Ardalis.SmartEnum.dll
+C:\Users\Hp\Desktop\GitHub Projects\USP-2021200517\USP.API\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\Hp\Desktop\GitHub Projects\USP-2021200517\USP.API\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\Hp\Desktop\GitHub Projects\USP-2021200517\USP.API\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\Hp\Desktop\GitHub Projects\USP-2021200517\USP.API\bin\Debug\net8.0\Net30.LinqBridge.dll
+C:\Users\Hp\Desktop\GitHub Projects\USP-2021200517\USP.API\bin\Debug\net8.0\Net35.Actions.dll
+C:\Users\Hp\Desktop\GitHub Projects\USP-2021200517\USP.API\bin\Debug\net8.0\Net35.Threading.Tasks.dll
+C:\Users\Hp\Desktop\GitHub Projects\USP-2021200517\USP.API\bin\Debug\net8.0\Net35.TypeInfo.dll
+C:\Users\Hp\Desktop\GitHub Projects\USP-2021200517\USP.API\bin\Debug\net8.0\Net4x.AsyncBridge.dll
+C:\Users\Hp\Desktop\GitHub Projects\USP-2021200517\USP.API\bin\Debug\net8.0\Net4x.BaseTypes.dll
+C:\Users\Hp\Desktop\GitHub Projects\USP-2021200517\USP.API\bin\Debug\net8.0\Net4x.ValueTuple.dll

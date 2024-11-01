@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "tCiAqNwNPuo=",
+  "dgSpecHash": "CaTS72Oil8s=",
   "success": true,
   "projectFilePath": "C:\\Users\\Hp\\Desktop\\GitHub Projects\\USP-2021200517\\USP.Infrastructure\\USP.Infrastructure.csproj",
   "expectedPackageFiles": [
@@ -20,6 +20,7 @@
     "C:\\Users\\Hp\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\2.0.0\\microsoft.extensions.logging.abstractions.2.0.0.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\microsoft.extensions.primitives\\9.0.0-rc.1.24431.7\\microsoft.extensions.primitives.9.0.0-rc.1.24431.7.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "C:\\Users\\Hp\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\mongodb.bson\\2.28.0\\mongodb.bson.2.28.0.nupkg.sha512",
     "C:\\Users\\Hp\\.nuget\\packages\\mongodb.driver\\2.28.0\\mongodb.driver.2.28.0.nupkg.sha512",
