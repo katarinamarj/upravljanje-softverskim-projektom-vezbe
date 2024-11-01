@@ -10,8 +10,17 @@ public static partial class UserMapper
 {
     public static partial UserDetailsDto ToDto(this Domain.Entities.User entity);
     public static partial Domain.Entities.User ToEntity(this UserDetailsDto dto);
-public static partial Domain.Entities.User ToEntity(this EditUserDto dto);
     
+    public static User ToEntity(this EditUserDto dto)
+    {
+        return new User
+        {
+            ID = (string.IsNullOrEmpty(dto.ID) ? null : dto.ID) ?? string.Empty,
+            FirstName = dto.FirstName,
+            LastName = dto.LastName,
+            Email = dto.Email
+        };
+    }
     
     public static ListUserDetailsDto ToListDto(this Many<Domain.Entities.User, Domain.Entities.Product> manyEntities)
     {
@@ -23,5 +32,17 @@ public static partial Domain.Entities.User ToEntity(this EditUserDto dto);
         }
 
         return new ListUserDetailsDto(listDto);
+    }
+    
+    public static List<User> ToListEntity(this Many<User, Domain.Entities.Product> manyEntities)
+    {
+        var list = new List<User>();
+
+        foreach (var entity in manyEntities)
+        {
+            list.Add(entity);
+        }
+
+        return list;
     }
 }

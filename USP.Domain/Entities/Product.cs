@@ -25,7 +25,6 @@ public class Product : Entity
         this.InitManyToMany( () => ReferencedManyToManyUser, user => user.ReferencedManyToManyProducts);
     }
    
-   //Category Category { get; set; }
 
 
     
